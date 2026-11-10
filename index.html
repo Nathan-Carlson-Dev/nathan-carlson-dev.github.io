@@ -1,32 +1,9 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-
-<head>
-	<meta charset="UTF-8">
-	<title>Nathan Carlson's Portfolio</title>
-	<link rel="stylesheet" href="index.css">
-	<script src="main.js"></script>
-</head>
-
-<body>
-	<div id = "node">
-	</div>
-	<script>
-		var app = Elm.Main.init({node : document.getElementById("node")});
-		var resizeSignal = e => {
-				var body = document.body,
-					html = document.documentElement;
-
-				var maxHeight = Math.max(body.scrollHeight, body.offsetHeight,
-					html.clientHeight, html.scrollHeight, html.offsetHeight);
-				app.ports.resize.send({
-					width: window.innerWidth, height: window.innerHeight, maxHeight: parseInt(maxHeight)
-				})
-			};
-		resizeSignal(undefined);
-		window.onresize = resizeSignal;
-		document.addEventListener("scroll", e => app.ports.scroller.send(parseInt(window.scrollY)));
-	</script>
-</body>
-
+    <head>
+        <title>HELLOOO</title>
+    </head>
+    <body>
+        <h1>HELLOOO</h1>
+    </body>
 </html>
