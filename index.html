@@ -2,40 +2,93 @@
 <html>
     <head>
         <title>Nathan Carlson's Page</title>
+        <style>
+            body{
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+            .compact-paragraph {
+                margin: 0;
+                padding: 0;
+            }
+        </style>
     </head>
     <body>
-        <h1>Nathan Carlson</h1>
-        <div>
-            <p>2024 - 2026: Masters of Arts in Mathematics @ Stony Brook University</p>
-            <p>2020 - 2024: Bachelors of Science in Mathematics @ Stony Brook University</p>
+        <h1 style="margin-bottom: 0;">Nathan Carlson</h1>
+        <div style="margin-bottom: 3%; margin-top: 0.25%;">
+            <p class="compact-paragraph">2024 - 2026: Masters of Arts in Mathematics @ Stony Brook University</p>
+            <p class="compact-paragraph">2020 - 2024: Bachelors of Science in Mathematics @ Stony Brook University</p>
         </div>
 
-        <p>Need to contact me? Use this email: carlsonnathan679@gmail.com</p>
+        <hr>
+
+        <p><b>Need to contact me?</b> Use this email, carlsonnathan679@gmail.com</p>
+
+        <hr>
 
         <div>
             <h3>About Me:</h3>
             <p>I grew up on Cape Cod in Massachusetts. Sadly, I didn't acquire a love for seafood like I am supposed to. However, I did obtain the appreciation for walking on the beach during a cold but refreshing day! I am quite a fan of tabletop games. Particularly, I enjoy the social aspects of playing them.</p>
         </div>
 
+        <hr>
+
         <div>
             <h3>Interests:</h3>
-            <p>I find the topological classification of structures very fascinating! My first exposure being knots and braids. Now, I have been very interested in the applications of these types of classifications in physics, particularly, fluids. The following is a brief list of topics that I have been interested in:</p>
+            <p>I find the topological classification of structures very fascinating! My first exposure being knots and braids. Now, I have been very interested in the applications of these types of classifications in physics, particularly, fluids. The following is a brief list of topics that I have been interested in (with links to relevant resources):</p>
             <ul>
-                <li>Classification of coadjoint orbits of 2D area-preserving diffeomorphisms</li>
-                <li>Topological effects of mechanical Stirring of 2D Fluids</li>
-                <li>Braiding of point vortex systems</li>
-                <li>The relationship between quantum systems, fluids, and geometry (e.g. geometric quantization, Madelung transform)</li>
-                <li>Euler-Arnold type equations and their behavior</li>
+                <li>
+                    Classification of coadjoint orbits of 2D area-preserving diffeomorphisms
+                    <ol>
+                        <li><em><a href="https://utoronto.scholaris.ca/server/api/core/bitstreams/ead78b57-4af4-4d92-b875-673843bbdb14/content" target="_blank">Ilia Kirillov's thesis on this topic at University of Toronto!</a></em></li>
+                    </ol>
+                </li>
+                <li>
+                    Topological effects of mechanical Stirring of 2D Fluids
+                    <ol>
+                        <li><em><a href="https://www.sciencedirect.com/science/article/pii/S0166864104002639" target="_blank">Dynamics of two-dimensional time-periodic Euler fluid flows by Phillip Boyland</a></em></li>
+                        <li><em><a href="https://link.springer.com/book/10.1007/978-3-031-04790-9" target="_blank">Braids and Dynamics by Jean-Luc Thiffeault</a></em></li>
+                    </ol>
+                </li>
+                <li>
+                    Braiding of point vortex systems
+                    <ol>
+                        <li><em><a href="https://www.sciencedirect.com/science/article/pii/S0167278902006929" target="_blank">Topological fluid mechanics of point vortex motions by Phillip Boyland, Mark Stremler, Hassan Aref</a></em></li>
+                        <li><em><a href="https://link.springer.com/article/10.1007/s40598-020-00162-8" target="_blank">Integrability of point-vortex dynamics via symplectic reduction: a survey by Klas Modin, Milo Viviani</a></em></li>
+                    </ol>
+                </li>
+                <li>
+                    The relationship between quantum systems, fluids, and geometry (e.g. geometric quantization, Madelung transform, etc.)
+                    <ol>
+                        <li><em><a href="https://link.springer.com/book/10.1007/978-1-4614-7116-5" target="_blank">Quantum Theory for Mathematicians by Brian C. Hall</a> (Particularly, chapters 21 - 23)</em></li>
+                        <li><em><a href="https://link.springer.com/article/10.1007/s00205-019-01397-2" target="_blank">Geometry of the Madelung Transform by Boris Khesin, Gerard Misiołek, Klas Modin</a></em></li>
+                    </ol>
+                </li>
+                <li>
+                    Euler-Arnold type equations and integrable systems
+                    <ol>
+                        <li><em><a href="https://www.sciencedirect.com/science/article/pii/S0001870802000634" target="_blank">Euler equations on homogeneous spaces and Virasoro orbits by Boris Khesin, Gerard Misiołek</a></em></li>
+                    </ol>
+                </li>
             </ul>
-        <p>Below each item are relevant papers, books, and resources by others. To see my contributions, notes, or projects, click <a href="#contributions-notes-projects">here</a>.</p>
 
         <p>Beyond my interest in mathematics, I also care a lot about providing educational opportunities for people in all stages of their life. This is sourced from my more core belief in the advocacy and visibility of mental health in all types of communities. As someone who has struggled to reach out for support because of mental health, I believe it is important to extend an opportunity to someone, even if they can't take it at that time. It is meaningful, and it does make a difference.</p>
-        <p>I have added a list of experiences that also shaped my views above:</p>
         </div>
 
-        <div id="contributions-notes-projects">
-            <h3>Contributions, Notes, and Projects:</h3>
-            <p>I do apologize for the inconvenience, but nothing is listed here for now. I hope to update this section soon :)</p>
+        <!-- <hr>
+
+        <div>
+            <h3>Experience:</h3>
+        </div> -->
+
+        <hr>
+
+        <div id="notes-projects">
+            <h3>Notes and Projects:</h3>
+            <p><a href="stirring.pdf">Aperiodic mechanical stirring of a material in a 2D fluid</a></p>
+            <p style="margin-left: 5%; margin-right: 5%"><em> In Phillip Boyland's work on mechanical stirring, he studied the braiding of the trajectories of stirrers and connected it to the theory of mapping class groups. This resulted in a statement about time-periodic stirring and the mixing of the vorticity (or more generally, a passively transported scalar material). This project tries to explore how loosening the constraint of time-periodicity affects the mixing properties. Deforming the stirring so that the trajectories become time-periodic again and studying how it deforms allow us to determine when a similar mixing result can be reasonably obtained.</em></p>
         </div>
 
     </body>
